@@ -1,0 +1,10 @@
+all: power ring galois
+
+power: power.cpp
+	g++ power.cpp -o power
+
+ring: ring.cpp
+	g++ ring.cpp -o ring
+
+galois: galois.cpp
+	g++ galois.cpp -o galois
